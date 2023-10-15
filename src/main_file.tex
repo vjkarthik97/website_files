@@ -41,11 +41,14 @@ IIT Bombay}
 Mobile Robots are a class of \textbf{underactuated} systems with inherent \textbf{non-holonomic constraints} that restrict their maneuverability. In practice, they are often deployed in space-constrained operating workspaces. Therefore, motion planning for such systems becomes a complex task, and it is significantly challenging when the exact obstacle configuration is not known beforehand. The mathematical models (unicycle, bicycle,etc) for mobile robots are typically driftless , and exhibit the following structure,
 \begin{align}
 \label{eqn:SystemDescription}
+\centering
 \dot{X} = g(X,U) \quad;\quad X \in Q \subseteq \mathbb{R}^n, U\in [U_m,U_M]\subset\mathbb{R}^m \quad;\quad m < n
 \end{align}
 Here, $g(X)\in \mathbb{R}^{n\times m}$ is typically a lipschitz function. The configuration space is given by $\mathcal{Q}$ and the set of obstacles is denoted by $\mathcal{O}_i$. From these definitions, the free configuration space $\mathcal{Q}_{\text{free}}$ is obtained as follows,
 \begin{align}
     \label{eqn:FreeWorkspaces}
+    \centering
+    
     \mathcal{Q}_{\text{free}} = \{X\in\mathcal{Q}\;|\; X\cap\left(Q\cap (\cup_i \mathcal{O}_i)\right) = \emptyset \}
 \end{align}
 
@@ -57,11 +60,10 @@ Suppose the initial conditions are given by $X_0$ at an initial time instant $t_
 \textbf{Under such conditions, the resulting motion plan $X_{\text{ref}}(t)$ is compliant for tracking through a careful design of a low-level tracking controller}. (The final time argument condition could be optionally relaxed if required). \textit{During operation in unknown environments, such amiable motion plans must be generated during run-time to accomplish the mission objectives based on the sensed information.}
 \begin{figure}
     \centering
-    \includegraphics[width = 8 cm]{src/media/turtlebot3_burger_components.png}
+    \includegraphics[width = 8 cm]{media/turtlebot3_burger_components.png}
     \caption{Caption}
     \label{fig:enter-label}
 \end{figure}
-
 
 \subsection{Integrated Planning and Control (IPC)}
 IPC algorithms \textbf{seek motion plans as a sequence of feedback controllers over domains} in the navigable regions of the environment, rather than an explicit path/trajectory in the configuration space of the system. The IPC motion plans exhibit the following properties,
