@@ -62,7 +62,7 @@ class="cmmi-10">m &#x003C; n</span></td>                  <td
 class="align-even"></td>                  <td 
 class="align-label"><a 
  id="x1-1001r1"></a>(1)                  </td></tr></table>
-<!--l. 46--><p class="noindent" >Here, <span 
+<!--l. 47--><p class="noindent" >Here, <span 
 class="cmmi-10">g</span>(<span 
 class="cmmi-10">X</span>) <span 
 class="cmsy-10">&#x2208;</span><span 
@@ -98,7 +98,7 @@ class="cmsy-10">&#x2205;}</span></td>                            <td
 class="align-even"></td>                            <td 
 class="align-label"><a 
  id="x1-1002r2"></a>(2)                            </td></tr></table>
-<!--l. 52--><p class="noindent" >Suppose the initial conditions are given by <span 
+<!--l. 54--><p class="noindent" >Suppose the initial conditions are given by <span 
 class="cmmi-10">X</span><sub><span 
 class="cmr-7">0</span></sub> at an initial time instant <span 
 class="cmmi-10">t</span><sub><span 
@@ -116,7 +116,7 @@ class="cmmi-10">Q </span>is deemed admissible for navigation under the following
 conditions,
      <ul class="itemize1">
      <li class="itemize">
-     <!--l. 54--><p class="noindent" ><span 
+     <!--l. 56--><p class="noindent" ><span 
 class="cmmi-10">X</span><sub>ref</sub>(<span 
 class="cmmi-10">t</span>) is a solution to (<a 
 href="#x1-1001r1">1<!--tex4ht:ref: eqn:SystemDescription --></a>), with <span 
@@ -132,7 +132,7 @@ class="cmmi-10">X</span><sub><span
 class="cmmi-7">f</span></sub>.
      </li>
      <li class="itemize">
-     <!--l. 55--><p class="noindent" ><span 
+     <!--l. 57--><p class="noindent" ><span 
 class="cmmi-10">X</span><sub>ref</sub>(<span 
 class="cmmi-10">t</span>) <span 
 class="cmsy-10">&#x2208;<img 
@@ -145,7 +145,7 @@ class="cmmi-10">t</span><sub><span
 class="cmr-7">0</span></sub><span 
 class="cmmi-10">,t</span><sub><span 
 class="cmmi-7">f</span></sub>]</li></ul>
-<!--l. 57--><p class="noindent" ><span 
+<!--l. 59--><p class="noindent" ><span 
 class="cmbx-10">Under such conditions, the resulting motion plan </span><span 
 class="cmmi-10">X</span><sub><span 
 class="cmbx-10">ref</span></sub>(<span 
@@ -159,7 +159,7 @@ class="cmti-10">During operation in unknown environments, such amiable motion pl
 class="cmti-10">must be generated during run-time to accomplish the mission objectives based on the sensed information.</span>
 <hr class="figure"><div class="figure" 
 ><img 
-src="src/media/turtlebot3_burger_components.png" alt="PIC"  
+src="media/turtlebot3_burger_components.png" alt="PIC"  
 width="227" height="227" > <a 
  id="x1-1003r1"></a>
 <a 
@@ -168,17 +168,17 @@ width="227" height="227" > <a
 ><span class="id">
 Figure&#x00A0;1: </span><span  
 class="content">Caption                                                                          </span></div><!--tex4ht:label?: x1-1003r1 -->
-<!--l. 63--><p class="noindent" ></div><hr class="endfigure">
-<!--l. 66--><p class="noindent" >
+<!--l. 65--><p class="noindent" ></div><hr class="endfigure">
+<!--l. 67--><p class="noindent" >
 <h4 class="subsectionHead"><span class="titlemark">1.1   </span> <a 
  id="x1-20001.1"></a>Integrated Planning and Control (IPC)</h4>
-<!--l. 67--><p class="noindent" >IPC algorithms <span 
+<!--l. 68--><p class="noindent" >IPC algorithms <span 
 class="cmbx-10">seek motion plans as a sequence of feedback controllers over domains </span>in the navigable
 regions of the environment, rather than an explicit path/trajectory in the configuration space of the system. The
 IPC motion plans exhibit the following properties,
      <ul class="itemize1">
      <li class="itemize">
-     <!--l. 69--><p class="noindent" >Each domain <span 
+     <!--l. 70--><p class="noindent" >Each domain <span 
 class="cmsy-10"><img 
 src="cmsy10-44.png" alt="D" class="10x-x-44" /></span><sub><span 
 class="cmmi-7">k</span></sub> is positively invariant under <span 
@@ -212,7 +212,7 @@ href="#x1-1001r1">1<!--tex4ht:ref: eqn:SystemDescription --></a>), the following
      true,
          <ul class="itemize2">
          <li class="itemize">
-         <!--l. 71--><p class="noindent" >If <span 
+         <!--l. 72--><p class="noindent" >If <span 
 class="cmmi-10">X</span>(<span 
 class="cmmi-10">t </span>= <span 
 class="cmmi-10">t</span><sub><span 
@@ -242,7 +242,7 @@ class="cmmi-10">,t</span><sub><span
 class="cmmi-7">f</span></sub>]</li></ul>
      </li>
      <li class="itemize">
-     <!--l. 73--><p class="noindent" >The domains <span 
+     <!--l. 74--><p class="noindent" >The domains <span 
 class="cmsy-10"><img 
 src="cmsy10-44.png" alt="D" class="10x-x-44" /></span><sub><span 
 class="cmmi-7">k</span></sub> are sequenced in such a way that their goal sets <span 
@@ -281,7 +281,7 @@ class="align-even"></td>                                               <td
 class="align-label"></td></tr></table>
          <ul class="itemize2">
          <li class="itemize">
-         <!--l. 78--><p class="noindent" >The initial configuration <span 
+         <!--l. 79--><p class="noindent" >The initial configuration <span 
 class="cmsy-10"><img 
 src="cmsy10-53.png" alt="S" class="10x-x-53" /> </span>in the navigation query is such that, <span 
 class="cmsy-10"><img 
@@ -293,7 +293,7 @@ src="cmsy10-44.png" alt="D" class="10x-x-44" /></span><sub><span
 class="cmmi-7">k</span></sub>.
          </li>
          <li class="itemize">
-         <!--l. 79--><p class="noindent" >The final configuration <span 
+         <!--l. 80--><p class="noindent" >The final configuration <span 
 class="cmsy-10"><img 
 src="cmsy10-54.png" alt="T" class="10x-x-54" /> </span>in the navigation query is such that <span 
 class="cmsy-10"><img 
@@ -303,7 +303,7 @@ class="cmmi-7">k</span></sub> for some &#8216;<span
 class="cmmi-10">k</span><span 
 class="cmsy-10">&#x2032;</span>.</li></ul>
      </li></ul>
-<!--l. 82--><p class="noindent" >Depending on the current state of the system, the <span 
+<!--l. 83--><p class="noindent" >Depending on the current state of the system, the <span 
 class="cmsy-10"><img 
 src="cmsy10-46.png" alt="F" class="10x-x-46" /></span><sub><span 
 class="cmmi-7">k</span></sub> associated with the corresponding <span 

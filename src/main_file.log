@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=latex 2023.10.15)  15 OCT 2023 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=latex 2023.10.15)  15 OCT 2023 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1392,21 +1392,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 (C:\Users\vjkar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-l. 50 Writing main_file.idv[1] (main_file0x.png)
+l. 52 Writing main_file.idv[1] (main_file0x.png)
 
 [3]
-
-LaTeX Warning: File `src/media/turtlebot3_burger_components.png' not found on i
-nput line 60.
-
-l.60 --- TeX4ht warning --- File `"src/media/turtlebot3_burger_components.xbb"'
- not found ---
-l.60 --- TeX4ht warning --- Cannot determine size of graphic in "src/media/turt
-lebot3_burger_components.xbb" (no BoundingBox) ---
-l. 60 --- needs --- src/media/turtlebot3_burger_components.png ---
+l.62 --- TeX4ht warning --- File `"media/turtlebot3_burger_components.xbb"' not
+ found ---
+l.62 --- TeX4ht warning --- Cannot determine size of graphic in "media/turtlebo
+t3_burger_components.xbb" (no BoundingBox) ---
+l. 62 --- needs --- media/turtlebot3_burger_components.png ---
 [4]
 
-LaTeX Warning: Empty bibliography on input line 85.
+LaTeX Warning: Empty bibliography on input line 86.
 
 [5] (main_file.aux)
  ***********
@@ -1418,12 +1414,12 @@ Package logreq Info: Writing requests to 'main_file.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26428 strings out of 475249
- 446178 string characters out of 5757838
+ 26409 strings out of 475249
+ 445189 string characters out of 5757838
  1930782 words of memory out of 5000000
- 47448 multiletter control sequences out of 15000+600000
+ 47429 multiletter control sequences out of 15000+600000
  566781 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,12n,154p,1250b,1762s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main_file.dvi (5 pages, 25864 bytes).
+Output written on main_file.dvi (5 pages, 25856 bytes).
