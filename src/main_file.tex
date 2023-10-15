@@ -18,6 +18,9 @@
 % Package to place figures where you want them.
 \usepackage{float}
 \usepackage{array}
+
+\newcommand{\htmlquad}{\space{0.5em}}
+
 \usepackage{subfig,wrapfig}
 \usepackage[
 %backend=biber,
@@ -42,7 +45,7 @@ Mobile Robots are a class of \textbf{underactuated} systems with inherent \textb
 \begin{align}
 \label{eqn:SystemDescription}
 \centering
-\dot{X} = g(X,U) \quad;\quad X \in Q \subseteq \mathbb{R}^n, U\in [U_m,U_M]\subset\mathbb{R}^m \quad;\quad m < n
+\dot{X} = g(X,U) \htmlquad;\htmlquad X \in Q \subseteq \mathbb{R}^n, U\in [U_m,U_M]\subset\mathbb{R}^m \htmlquad;\htmlquad m < n
 \end{align}
 Here, $g(X)\in \mathbb{R}^{n\times m}$ is typically a lipschitz function. The configuration space is given by $\mathcal{Q}$ and the set of obstacles is denoted by $\mathcal{O}_i$. From these definitions, the free configuration space $\mathcal{Q}_{\text{free}}$ is obtained as follows,
 \begin{align}
